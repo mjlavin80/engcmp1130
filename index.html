@@ -1,93 +1,70 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-   <title>Pittsburgh Dataset Project</title>
-   
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!DOCTYPE html>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-   </head>
-  <body>
+<html>
 
-  	<!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Pittsburgh Juvinile Arrests (2016 - 2018)</h1>         
+<head>
+
+  <title>Skills Assignment</title>
+
+  <meta charset="utf-8" />
+
+
+
+  <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css" />
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <h1>Learning Log Template</h1>
+
+            <table class="table table-bordered">
+
+            <tr><th class="bg-primary text-white">Start time/date</th><th class="bg-primary text-white">End time/date</th><th class="bg-primary text-white">Description of focus</th><th class="bg-primary text-white">Notes on process</th>
+
+            <tr><td>2.5.19-19:00</td><td>2.5.19-22:00</td><td>Transferred my site from GoDaddy to FreeHosting, published the mockup code to www.doihaveleadpipes.com, started Mapbox tutorials and looking at sample code from other websites</td><td>This took a while but felt great in the end!</td></tr>
+
+            <tr><td>2.6.19-19:00</td><td>2.6.19-22:00</td><td>Re-watched HTML Essential Training parts 1 - 3 and searched for some good code examples to emulate.</td><td>Reached out to Noah S. for guidance because I admired his Pittsburgh dataset project. (He was very helpful)</td></tr>
+
+            <tr><td>2.7.19-17:30</td><td>2.7.19-19:00</td><td>HTML Essential Training part 4 & 5</td><td>Structuring content was slightly tougher to put into practice with my existing website than I thought.</td></tr>
+
+            <tr><td>2.11.19-13:00</td><td>2.11.19-16:00</td><td>Skimmed remainder of HTML Essential Training and found specific code examples for Mapbox implementation.</td><td>Lots of trial and error in getting the map onto the site</td></tr>
+
+            <tr><td>2.14.19-10:00</td><td>2.14.19-11:00</td><td>Watched Mapbox tutorials, worked on getting my choropleth shapefile into Mapbox.</td><td>Ended up having an issue with the file and it didn't work.</td></tr>
+
+            <tr><td>2.15.19-11:00</td><td>2.15.19-13:00</td><td>Finally got the map onto my site without it taking up the entire background.</td><td>Trial and error, trial and error, some stack exchange, more trial and error.</td></tr>
+            </table>
+
         </div>
-      </div>
- 
 
-<div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-8">
-            <h5>Projects in Digital Composition - January 30, 2019</h5>
-            <h3>By Raanan Gurewitsch</h3>
-          	<hr>
+     </div>
 
-          	<p>Between 2016 and today, just over 27,500 arrests have taken place under the jurisdiction of the Pittsburgh Police. Charges range from drunk driving and disorderly conduct to violent assault and armed robbery. The most frequently occuring charges (30% of all arrests) have to do with drugs--possession of marijuana, other controlled substances, paraphenalia, etc. Charges of assault, fighting and disorderly conduct occur in approximately 34% of arrests.</p>
+  </div>
 
-          	<p>However, the most concerning percentage-statistic may very well be that nearly 10% of arrests (2,586 since 2016) in the City of Pittsburgh are of kids between 10 and 18 years old. In this report, I take a closer look at the data on juvenile arrests to try and paint a more robust picture of which kids are getting arrested, where, when and why. By breaking down and visualizing the data, we ultimately see a stark reality that highlights the need for drug and violence prevention at and around the City's schools.</p>
+ </div>
 
-          	<p>In this first graphic, we see the overall age distribution among Pittsburgh arrests. It shows a steady increase, as one might expect, as we approach the mid-20's, in the number of arrests. The numbers for adolescents are also not very surprising, showing a marked increase once we move from elementary school to high school.</p>
-            
-            <center><img src="age.png" alt="Arrests by Age" style="width:620px;height:684px;"></center>
-            
-            <p>So what are these kids getting arrested for anyway?</p>
-            
-            <center><img src="charges.png" alt="Juvy Arrests by Charge" style="width:570px;height:570px;"></center>
-            
-            <p>The chart above clearly shows that the majority of juvenile arrests are taking place due to violent behavior, whether it be simple or aggravated assault, hazardous/physical offense, disorderly conduct or fighting. Could it be that these arrests have anything to do with fighting at or around school? To look into this, I charted the distribution of juvenile arrests by the time of day at which they occurred. What I found was that indeed, a vast majority of these arrests occurred during school hours between 8:00am and 4:00pm.</p> 
-            
-            <center><img src="school_hours.png" alt="Juvy Arrests by Time" style="width:700px;height:684px;"></center>
-            
-            <p>If most juvenile arrests are occurring during the school day, how do we know for sure that the issue at hand revolves around the schools themselves? Luckily, the Pittsburgh Police publish the location data for each individual event in the arrests dataset. Along with the location of Pittsburgh Public Schools, I mapped out the locations of all juvenile arrests in the dataset. The result (below) shows that in general, these arrests tend to occur closeby to schools.</p>
-            
-            <center><h4>Map of Pittsburgh Juvenile Arrests and Public Schools</h4></center>
-            <center><img src="map.png" alt="Map" style="width:800px;height:684px;"></center>
-		  
-	    <p>Unfortunately, there is more to unpack from this data than a simple map of arrest locations. According to a report from Public Source in 2017, "Pittsburgh school police filed 3,400 charges over the previous four school years for cases that occurred on school grounds." The report brings to light unsettling shortcomings in the disciplinary systems within Pittsburgh Public Schools, namely the tendency (and frequency with which) teachers call the police on students, even those in elementary school. The impact of removing kids from school when they act out, specifically by calling the police, can have profound negative effects on children, Jeffrey Benzig argues. Another point the article emphasizes is the role of race.</p>
-		  <center><p><h4>"In Pittsburgh, police intervention is a black and white issue."</h4></p></center>
-             
-	<center><h4>Juvenile Arrests by Race</h4></center>
-	<center><img src="arrests_race.png" alt="Race" style="width:800px;height:684px;"></center>
-		
-		<p>As the above chart demonstrates, Pittsburgh has a tremendous amount of work to do, not only to reduce the overall magnitude of juvenile delinquency, but also to reduce the egregious racial disparities in school arrests. As Benzig suggests in his report, much of the work must come from within, meaning that school administrators and teachers must explore innovative ways to handle misbehavior and violence among school students. The data in Public Source's report, spanning back to 2012, as well as the current data, show that this change is far overdue.</p>
-</div>
-</div>
-</div>
+			<section>
+              <iframe src = "https://raanan-g.github.io" width = "100%" height = "720px"></iframe>
+            </section>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-8">
-			<h4>Sources:</h4>
-<ol>
-	<li>Pittsburgh Police Arrest Data. Police Bureau; Dept. of Public Safety. <em>Western Pennsylvania Regional Data Center</em>. 29 January 2019. https://data.wprdc.org/dataset/arrest-data</li>
-	<li>Allegheny County Public Schools / Local Education Agency (LEAs) Locations. Allegheny County. <em>Western Pennsylvania Regional Data Center</em>. 15 January 2019. https://data.wprdc.org/dataset/allegheny-county-public-schools-local-education-agency-leas-locations</li>
-	<li>Benzing, Jeffrey. “From School to Jail: How Hundreds of Kids Get Arrested in Pittsburgh Schools Every Year.” PublicSource, 12 Feb. 2018, www.publicsource.org/from-school-to-jail-how-hundreds-of-kids-get-arrested-in-pittsburgh-schools-every-year/.</li>
-</ol>
+  <!-- JavaScript -->
 
-		</div>
-	</div>
-</div>
+  <script src="js/jquery-3.1.0.min.js"></script>
+
+  <script src="dist/js/bootstrap.js"></script>
+
 
 
 </body>
-</html>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
